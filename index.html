@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Access-Control-Allow-Method" content="*" />
+    <link rel="stylesheet" href="./css/normalize.min.css" />
+    <link rel='stylesheet' href='./vender/font-awesome-4.7.0/css/font-awesome.css' />
+    <link rel="stylesheet" href="./css/style.css" media="screen" type="text/css" />
+    <title>Do something Labs</title>
+</head>
+
+<body>
+    <main class="container">
+        <label class="toggle undisplay" for="toggle"> Put Off</label>
+        <input type="checkbox" class="toggle check-toggle undisplay" id="toggle" />
+        <article class="menu">
+            <section class="top">
+                <span class="search">
+                  <input type="text"/>
+                </span>
+                <a class="exit" href="#"></a>
+            </section>
+            <ul class="middle">
+                <li onclick="toLunchWhat()"><i class="fa fa-balance-scale"></i>今天中午吃什么</li>
+                <li onclick="toDocument()"><i class="fa fa-bed"></i>内部产品培训-智能压力监测垫</li>
+                <li onclick="toSeeImage()"><i class="fa fa-eyedropper"></i>图像分析</li>
+                <li onclick="toLeapDemo()"><i class="fa fa-hand-spock-o"></i>玩个LEAP</li>
+                <li><i class="fa fa-hand-spock-o"></i><a href="nga_phone_8.2.0.apk">DL</a></li>
+            </ul>
+            <section class="bottom"></section>
+            <section class="menu-back"></section>
+            <section class="glass-reflection"></section>
+        </article>
+    </main>
+    <script type="text/javascript" src="./vender/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>

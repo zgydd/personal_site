@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+    overflow: hidden;
+    font-size: 16px;
+    user-select: none;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.heatmap-container {
+    height: 66%;
+    width: 70%;
+    border: 2px solid #000;
+}
+
+.controller {
+    width: 15%;
+    height: 50%;
+    margin-left: 2%;
+}
+
+.controller>button {
+    min-width: 7em;
+    line-height: 2em;
+}
+#thinCanvas {
+	position: absolute;
+}

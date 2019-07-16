@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta http-equiv="Access-Control-Allow-Method" content="*" />
+    <title>图像分析</title>
+    <link rel="stylesheet" href="./css/main.css" media="screen" type="text/css" />
+</head>
+
+<body>
+    <article>
+        <label>原图</label>
+        <div id="baseImg">
+            <img id="1" src="./assets/images/1.png" />
+            <img id="2" src="./assets/images/2.png" />
+            <img id="3" src="./assets/images/3.png" />
+            <img id="4" src="./assets/images/4.png" />
+            <img id="5" src="./assets/images/5.png" />
+            <img id="6" src="./assets/images/6.png" />
+            <img id="7" src="./assets/images/7.png" />
+            <img id="8" src="./assets/images/8.png" />
+            <img id="9" src="./assets/images/9.png" />
+            <img id="10" src="./assets/images/10.png" />
+            <img id="11" src="./assets/images/11.png" />
+            <img id="12" src="./assets/images/12.png" />
+            <img id="13" src="./assets/images/13.png" />
+        </div>
+    </article>
+    <article>
+        <label>原图-画布</label>
+        <div id="canvasContainer_base"></div>
+    </article>
+    <article>
+        <label>灰度图</label>
+        <div id="canvasContainer_dark"></div>
+    </article>
+    <article>
+        <label>二值图</label>
+        <button>膨胀</button>
+        <button>腐蚀</button>
+        <div id="canvasContainer_binary"></div>
+    </article>
+    <article>
+        <label>轮廓图</label>
+        <div id="canvasContainer_edge"></div>
+    </article>
+    <article>
+        <label>骨架图</label>
+        <div id="canvasContainer_skeleton"></div>
+    </article>
+    <script type="text/javascript" src="./vender/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>

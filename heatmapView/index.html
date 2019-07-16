@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Analysis</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta http-equiv="Access-Control-Allow-Method" content="*">
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <main>
+        <div class="heatmap-container"></div>
+        <div class="controller">
+            <button id="prev">prev</button>
+            <button id="next">next</button>
+            <br />
+            <br />
+            <button id="dilation">矩阵膨胀</button>
+            <button id="corrosion">矩阵腐蚀</button>
+            <br />
+            <br />
+            <button id="open">矩阵开运算</button>
+            <button id="close">矩阵闭运算</button>
+            <br />
+            <br />
+            <button id="skeleton">细化腐蚀</button>
+        </div>
+        <canvas id="thinCanvas"></canvas>
+    </main>
+    <!--venders-->
+    <script type="text/javascript" src="./vender/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/prototype.js"></script>
+    <script type="text/javascript" src="./vender/heatmap.min.js"></script>
+    <!--wrappers-->
+    <script type="text/javascript" src="./js/functions.class.js"></script>
+    <!--main-->
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+html {
+    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+article {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0.25em auto 0.75em auto;
+    border: 0.1em #666 solid;
+    border-radius: 0.2em;
+    background-color: rgba(127, 255, 212, 0.2);
+    box-shadow: 0.5em 0.5em 0.25em #888;
+}
+
+article>label {
+    font-size: 1.5em;
+    line-height: 2em;
+    font-weight: bold;
+    color: #48b;
+}
+
+article>div>img,
+article>div>canvas {
+    margin: 0 0.2em;
+    border: 0.1em #a48 solid;
+}
